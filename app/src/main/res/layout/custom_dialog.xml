@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="325dp"
+    android:layout_height="550dp"
+    android:backgroundTint="#FFFFFF"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <TextView
+            android:id="@+id/billNumber"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="3"
+            android:gravity="left|center_vertical"
+            android:text="Bill No. "
+            android:textColor="#2BAE66"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/customerName"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="7"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="No Name"
+            android:textColor="#2BAE66"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <TextView
+            android:id="@+id/titleItems"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_weight="4"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Items"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/titlePrice"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_weight="2"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Price"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/titleQty"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_weight="1.5"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Qty."
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/titleAmount"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_weight="2.5"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Amount"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/dialogListView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <TextView
+            android:id="@+id/titleTotal"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="6"
+            android:gravity="center_vertical"
+            android:text="TOTAL"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/totalQty"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_weight="1.5"
+            android:gravity="center_horizontal|center_vertical"
+            android:textColor="#2BAE66"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/totalAmount"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_weight="2.5"
+            android:gravity="center_horizontal|center_vertical"
+            android:textColor="#2BAE66"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_done"
+        style="@style/ButtonStlye123"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="DONE"
+        android:textSize="25dp" />
+
+</LinearLayout>

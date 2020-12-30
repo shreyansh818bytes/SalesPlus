@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Sales Plus</string>
+
+    <string-array name="spinnerList">
+        <item>By Name</item>
+        <item>By Price</item>
+        <item>By Codename</item>
+        <item>By Stock</item>
+    </string-array>
+</resources>
